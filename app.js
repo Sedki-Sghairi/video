@@ -14,7 +14,8 @@ btn.addEventListener('click', function() {
 const preloader = document.querySelector('.preloader');
 window.addEventListener('load', function() {
 	preloader.classList.add('hide-preloader');
-	vid = document.querySelector('.video-container');
+	let vid = document.querySelector('.video-container');
 	vid.play();
-	vid.firstChild.classList.add('show');
+	const title = document.querySelector('.hide');
+	title.classList.add('show');
 });
