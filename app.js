@@ -8,6 +8,8 @@ btn.addEventListener('click', function() {
 	} else {
 		video.play();
 		btn.classList.remove('slide');
+		const title = document.querySelector('.hide');
+		title.classList.add('show');
 	}
 });
 
@@ -16,6 +18,4 @@ window.addEventListener('load', function() {
 	preloader.classList.add('hide-preloader');
 	let vid = document.querySelector('.video-container');
 	vid.play();
-	const title = document.querySelector('.hide');
-	title.classList.add('show');
 });
