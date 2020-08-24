@@ -98,9 +98,6 @@ header {
 h1 {
 	color: #ffff;
 }
-.show {
-	z-index: 22;
-}
 
 .switch-btn {
 	position: absolute;
